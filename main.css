@@ -1,0 +1,118 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    background-color: #0C0A3E;
+    border: 0;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-area {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.discription, #resultstr {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.example-picture {
+    width: 60%;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+nav div {
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.selected {
+    background-color: #0C0A3E;
+    color: white;
+}
+
+.timeblock {
+    justify-content: center;
+    text-align: center;
+}
+
+.timeblock p {
+    display: inline-block;
+}
+
+.question {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.problem-picture {
+    width: 30%;
+}
+
+.answer {
+    text-align: center;
+}
+
+.answer-picture {
+    width: 10%;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #f9564f;
+    border: none;
+    color : #fff;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-area {
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-area p {
+    margin: 10px;
+}
+
+.resultblock {
+    margin: 10px;
+}
+
+.resultblock p {
+    color: #0C0A3E;
+}
